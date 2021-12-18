@@ -20,12 +20,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+/* Added original color styling to new .seo anchor link */
+.header h1 .seo a {
     color: #d9dcd6;
-}
-
-.seo a {
-    color: #d9dcd6
 }
 
 .header div {
