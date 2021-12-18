@@ -7,18 +7,18 @@
     <title>Horiseon: Your Marketing Needs</title>
 </head>
 
-<!-- Added spacing and indentation below -->
+<!-- Added spacing and indentation to clean up code -->
 
 <body>
 
     <div class="header">
 
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1>Hori<span class="seo"><a href="#search-engine-optimization">seo</a></span>n</h1> <!-- Converted stylyzed "seo" from header into an anchor link to search engine optimization section -->
 
         <div>
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a> <!-- Need to figure out why SEO is not redirection on click -->
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -34,7 +34,7 @@
 
     <div class="content">
 
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization"> <!-- Added class id to search engine optimization to fix anchor link -->
 
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"/>
 
