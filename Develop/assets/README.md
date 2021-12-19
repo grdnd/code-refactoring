@@ -12,9 +12,13 @@ I first attempted my assignment by heading straight into our style.css in order 
 
 An issue I ran into while working on this assignment was figuring out how to get our #search-engine-optimization hyperlink to auto-scroll to our desired term. Although I could have easily missed it, I was finally able to solve this issue by providing my own spacing and indentation to index.html, and locating the missing ID that I then provided to #search-engine-optimization for our broken anchor link.
 
-After successfully solving the anchor link, I decided to implement my own elements to the application. My goal was to install a hyperlink into the "seo" of our "Horiseon" header while maintaining the pre-existing styling of the text. I found this was possible by going inside the <span> selectors of our header and insert my href link within. 
+After successfully solving the anchor link, I decided to implement my own elements to the application. My goal was to install a hyperlink into the "seo" of our "Horiseon" header while maintaining the pre-existing styling of the text. I found this was possible by going inside the <span> selectors of our header and insert my <a href="https://grdnd.github.io/code-refactoring/#search-engine-optimization"> link </a> within.
 
-
+ ** Link to Application ** 
+ 
+ https://grdnd.github.io/code-refactoring/
+ 
+ 
 ![Screenshot of Application // All refactored code should still maintain these visual properties](https://user-images.githubusercontent.com/93315369/146666551-692b3da2-6403-4872-9512-d4585bf937cc.png?raw=true)
  <br>
  "Landing page to Horiseon's website"
